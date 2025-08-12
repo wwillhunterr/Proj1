@@ -1,0 +1,29 @@
+# Normalize line endings for text files
+* text=auto
+
+# Force LF for common text/source files
+*.js   text eol=lf
+*.ts   text eol=lf
+*.tsx  text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.css  text eol=lf
+*.html text eol=lf
+*.sh   text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Treat these as binary (no line ending changes / no diffs)
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.pdf  binary
+*.woff binary
+*.woff2 binary
+*.ttf  binary
+*.eot  binary
+*.zip  binary
