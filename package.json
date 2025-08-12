@@ -1,0 +1,9 @@
+{
+  "name": "fantasy-ai",
+  "private": true,
+  "workspaces": ["Apps/*"],
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "npm run dev -w Apps/api & npm run start -w Apps/mobile"
+  }
+}
